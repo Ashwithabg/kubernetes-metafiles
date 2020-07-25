@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: metadatasvc
+spec:
+  type: ClusterIP
+  selector:
+    app: metadata-service-test-pods
+  ports:
+    - protocol: TCP
+      port: 8081
+      targetPort: 8080
+
+
