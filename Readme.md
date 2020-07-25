@@ -35,3 +35,8 @@
 curl http://node-ip:node-port/actuator/info
 curl http://node-ip:node-port/actuator/health
 ```
+
+*For the Latest version of minikube*
+```
+minikube start --cpus=4 --memory=8g --driver=hyperkit
+```
