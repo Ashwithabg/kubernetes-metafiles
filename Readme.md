@@ -40,3 +40,7 @@ curl http://node-ip:node-port/actuator/health
 ```
 minikube start --cpus=4 --memory=8g --driver=hyperkit
 ```
+
+*deployments*
+`kubectl rollout history deployment metadata-service-test`
+`kubectl rollout undo deployment metadata-service-test`
